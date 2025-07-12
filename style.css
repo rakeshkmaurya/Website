@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 2rem;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+nav li {
+  font-size: 0.95rem;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding-bottom: 2px;
+}
+nav .active a {
+  border-bottom: 2px solid #0074f0;
+  color: #0074f0;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.photo-box {
+  flex: 1 1 250px;
+}
+.photo-box img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.contact-box {
+  background: #f2f4f7;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.contact-box h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #333;
+}
+.info-box {
+  flex: 2;
+}
+.info-box h1 {
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin: 0;
+}
+.info-box h4 {
+  margin: 0.25rem 0 1rem;
+  color: #555;
+}
+.position a {
+  font-weight: bold;
+  color: #0074f0;
+  text-decoration: none;
+}
+.publications {
+  margin-top: 2rem;
+}
+.publications h2 {
+  font-size: 1.5rem;
+  color: #1a1a1a;
+}
+.pub-item {
+  border-bottom: 1px solid #eee;
+  padding: 0.75rem 0;
+}
